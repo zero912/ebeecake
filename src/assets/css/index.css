@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+.carousel-figure{
+	position: relative;
+}
+.nav{
+	width: 1200px;
+	height: 80px;
+	position: absolute;
+	top: 70px;
+	left: 150px;
+	z-index: 10;
+}
+.nav img{
+	width: 246px;
+	height: 74px;
+	float: left;
+}
+.nav_banner{
+	margin-right: 100px;
+	float: left;
+}
+.nav_banner ul{
+	margin-left: 100px;
+	height: 74px;
+}
+.nav_banner ul li{
+	margin-top: 40px;
+	display: inline-block;
+	padding: 15px 25px 0;
+	font-size: 18px;
+	font-weight: 300;
+}
+.reg{
+	margin-left: 100px;
+	float: right;
+}
+.reg ul li{
+	margin-top: 40px;
+	display: inline-block;
+	padding: 15px 10px 0;
+	font-size: 18px;
+	font-weight: 300;
+}
+.nav_banner ul li a:hover,
+.reg ul li a:hover{
+	color:chocolate;
+}
+
+/*
+.head .bot a:hover{
+	color: chocolate;
+}
+.cake{
+	margin-top: 50px;
+	overflow: hidden;
+}
+.cake .text{
+	width: 100%;
+	height: 50px;
+}
+.cake .text span{
+	font-size: 22px;
+	float: left;
+}
+.cake .text a{
+	float: right;
+}
+.cake .text a:hover{
+	color: chocolate;
+}
+
+.product{
+	width: 100%;
+	overflow: hidden;
+}
+.product .roll{
+	overflow: hidden;
+}
+.product .roll ul{
+	display: flex;
+	width: 200%;
+	animation: move 10s infinite linear;
+}
+@keyframes move{
+	0%{}
+	100%{transform: translateX(-50%);}
+}
+.roll ul:hover{
+	animation-play-state: paused;
+}
+.product .roll ul li{
+	width: 12.5%;
+	height: 280px;	
+	text-align: center;
+	display: block;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	margin: 28px 9px;
+}
+.product .item{
+	width: 280px;
+	height: 280px;	
+	background-color: aqua;
+	text-align: center;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	margin: 28px 9px;
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	transition-duration: 0.3s;
+	transition-property: box-shadow, transform;
+}
+.product .item .tips,
+.product .roll ul li .tips{
+	width: 250px;
+	height: 50px;
+	position: absolute;
+	border: 1px solid grey;
+	left: 14px;
+	bottom: 14px;
+	border-radius:3px;
+}
+.product .item h3,
+.product .roll ul li .tips h3{
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	font-weight: 400;
+}
+.product .item .tips h4,
+.product .roll ul li .tips h4{
+	color: chocolate;
+	font-weight: 400;
+	text-align: center;
+}
+.cake .product .item img:hover,
+.cake .product .item img:focus,
+.cake .product .item img:active{
+	box-shadow: 10px 10px 10px -8px rgba(0, 0, 0, 0.5);
+	transform: scale(1.1);
+}
+
+
+
+.bottom{
+	height: 300px;
+	background-image: linear-gradient(#f5a267,#e2aa8f);
+	margin-top: 50px;
+}
+.bottom .details{
+	overflow: hidden;
+	width: 1000px;
+	margin: 0 auto;
+}
+.bottom .details img{
+	float: left;
+}
+.bottom .details ul{
+	overflow: hidden;
+	float: left;
+	display: block;
+	margin: 0 auto;
+}
+.bottom .center .details ul li{
+	float: left;	
+	
+	padding: 0 25px;
+	margin: 60px 10px 40px 10px;
+}
+.bottom .details ul li+li::before{
+	content: "●";
+	width: 15px;
+	height: 15px;
+	color: black;
+	padding-right: 20px;
+}
+.bottom .details span{
+	font-size: 14px;
+	color:#9b9b9b;
+}
+.bottom .copy{
+	width: 1000px;
+	text-align: center;
+	line-height: 24px;
+	margin: 5px auto;
+}
+.bottom .center .copy span{
+	color:#9b9b9b;
+}  */
